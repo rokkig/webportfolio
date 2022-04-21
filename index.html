@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Grape+Nuts&family=Montserrat:wght@200;300&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<title>Hans Fredric Garay</title>
+		<link rel="icon" href="images/rokki2.png" type="image/x-icon">
+	</head>
+	<body class="bg-dark text-center text-lg-start text-white">
+		<!-- <img src="images/pexels-pixabay-270360.jpg" class="img-fluid bg-faded fixed-top" id="bg" alt="pexels-pixabay-270360.jpg"> -->
+		<nav class="navbar navbar-light bg-light">
+		  <div class="container-fluid">
+		    <a class="navbar-brand" href="#"><img src="images/rokki2.png"></a>
+		    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+		      <span class="navbar-toggler-icon"></span>
+		    </button>
+		    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+		      <div class="offcanvas-header">
+		        <h5 class="offcanvas-title text-dark" id="offcanvasNavbarLabel">Navigation</h5>
+		        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+		      </div>
+		      <div class="offcanvas-body">
+		        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+		          <li class="nav-item">
+		            <a class="nav-link active" aria-current="page" href="#">Home</a>
+		          </li>
+		          <li class="nav-item">
+		            <a class="nav-link" data-bs-toggle="offcanvas" data-bs-target="#Profile" aria-controls="offcanvasWithBackdrop">Profile</a>
+		          </li>
+		          <li class="nav-item">
+		            <a class="nav-link" data-bs-toggle="offcanvas" data-bs-target="#Contact" aria-controls="offcanvasWithBackdrop">Contact Me</a>
+		          </li>
+		        <!--   <li>
+		        	<button type="button" class="btn btn-lg btn-light" data-bs-toggle="popover" title="Popover title" data-bs-content="">Profile</button>
+		          </li> -->
+		          <li class="nav-item dropdown">
+		            <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+		              Dropdown
+		            </a>
+		            <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+		              <li><a class="dropdown-item" href="#">Action</a></li>
+		              <li><a class="dropdown-item" href="#">Another action</a></li>
+		              <li>
+		                <hr class="dropdown-divider">
+		              </li>
+		              <li><a class="dropdown-item" href="#">Something else here</a></li>
+		            </ul>
+		          </li>
+		        </ul>
+		      </div>
+		    </div>
+		  </div>
+		</nav>
+
+		<div class="container p-5">
+			<div class="row m-5">
+				<div class="col-lg-6 col-12 order-2 order-lg-1">
+		          <h1 class="display-1">Hi, Rokki Here!</h1>
+		          <h4>Full-Stack Developer</h4>
+		          <p>Hans Fredric Garay is a Full-Stack Developer. He has previously worked as a professional banquet cook but is now a fully fledged Software Engineer in the IT Industry.</p>
+		          <button class="btn bg-success text-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#Contact" aria-controls="offcanvasWithBackdrop">Hire Me!</button>
+		          <button class="btn bg-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#Profile" aria-controls="offcanvasWithBackdrop">Learn More</button>
+		        </div>
+	        	<div class="col-lg-6 col-12 order-1 order-lg-2">
+	        		<img src="images/me.jpg" class="img-fluid p-5 rounded-circle">
+	        	</div>
+        	</div>
+        </div>
+
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="Contact" aria-labelledby="offcanvasWithBackdropLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title text-dark" id="offcanvasWithBackdropLabel">Contact</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body bg-dark">
+            <h4>Notice:</h4>
+            <p>Currently engaged in Bootcamp training.</p>
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              </div>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d15443.179290749846!2d121.08757212809871!3d14.610760936734764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d14.6048957!2d121.09083229999999!4m5!1s0x3397b83f4dc62ec5%3A0xdb44bfd4b3ac2006!2ssta%20lucia!3m2!1d14.618711999999999!2d121.101468!5e0!3m2!1sen!2sph!4v1650502262505!5m2!1sen!2sph" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="img-fluid"></iframe>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="offcanvas offcanvas-start text-center" tabindex="-1" id="Profile" aria-labelledby="offcanvasWithBackdropLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title text-dark" id="offcanvasWithBackdropLabel">Education, Training, and Work Experience</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body bg-dark">
+          	<img src="images/Zuitt.png" class="img-fluid bg-light rounded-circle">
+          	<h4>Zuitt Coding Bootcamp</h4>
+            <p>Full-Stack Development</p>
+            <img src="images/CSB.svg" class="img-fluid">
+            <h4>De La Salle - College of Saint Benilde</h4>
+            <p>Bachelor of Science in Hotel, Restaurant, and Institution Management major in Culinary Arts</p>
+            <img src="images/Iscahm.png" class="img-fluid">
+            <h4>International School of Culinary Arts and Hotel Management</h4>
+            <p>Fundamentals of Culinary Arts</p>
+            <img src="images/DLSU.png" class="img-fluid">
+            <h4>De La Salle University Manila</h4>
+            <p>Undergraduate in Management of Financial Institutions</p>
+          </div>
+        </div>
+
+
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top bg-light">
+            <div class="col-md-4 d-flex align-items-center">
+              <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+              </a>
+              <span class="text-muted">© 2022, Hans Fredric Garay, All Rights Reserved.</span>
+            </div>
+        </footer>
+
+
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+	</body>
+</html>
