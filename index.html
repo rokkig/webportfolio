@@ -14,7 +14,7 @@
 	</head>
 	<body background="images/bg.jpg" class="text-center text-lg-start text-white img-fluid">
 		<!-- <img src="images/pexels-pixabay-270360.jpg" class="img-fluid bg-faded fixed-top" id="bg" alt="pexels-pixabay-270360.jpg"> -->
-		<nav class="navbar navbar-light bg-light">
+		<nav class="fixed-top navbar navbar-light bg-light">
 		  <div class="container-fluid">
 		    <a class="navbar-brand" href="#"><img src="images/rokki2.png"></a>
 		    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
@@ -29,6 +29,9 @@
 		        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
 		          <li class="nav-item">
 		            <a class="nav-link active" aria-current="page" href="#">Home</a>
+		          </li>
+		           <li class="nav-item">
+		            <a class="nav-link active" data-bs-toggle="offcanvas" data-bs-target="#About" aria-controls="offcanvasWithBackdrop">About Me</a>
 		          </li>
 		          <li class="nav-item">
 		            <a class="nav-link active" data-bs-toggle="offcanvas" data-bs-target="#Profile" aria-controls="offcanvasWithBackdrop">Profile</a>
@@ -98,6 +101,22 @@
                 <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
               </div>
             </div>
+          </div>
+        </div>
+        
+        <div class="offcanvas offcanvas-start text-center" tabindex="-1" id="About" aria-labelledby="offcanvasWithBackdropLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title text-dark" id="offcanvasWithBackdropLabel">About Me</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body bg-dark">
+          	<h4 class="m-3">Who am I?</h4>
+            <p>Hello there! My name is Rokki, a Full-Stack Developer. I just recently completed my Capstone Project for Zuitt Bootcamp and this is the result of it. Everything is still in progress. I will be embedding my projects in this page, so stay tuned!</p>
+            <div class="m-5">
+	           	<img width="150" src="images/capstone.png" class="img-fluid" href="#">
+	          	<h4 class="m-3">Zuitt Capstone 1</h4>
+	            <p>Sample Capstone developed after HTML, CSS, and Bootstrap discussions</p>
+        	</div>
           </div>
         </div>
 
@@ -171,7 +190,7 @@
         </div>
 
 
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top bg-light">
+        <footer class="fixed-bottom d-flex flex-wrap justify-content-between align-items-center py-3 border-top bg-light">
             <div class="col-md-4 d-flex align-items-center">
               <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
                 <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
